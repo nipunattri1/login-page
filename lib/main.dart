@@ -89,8 +89,9 @@ class Card extends StatelessWidget {
               fontWeight: FontWeight.w100,
             ),
           ),
-          Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+          Spacer(),
+          Padding(
+            padding: const EdgeInsets.only(left: 30, right: 30, top 16),
             child: const TextField(
               decoration: InputDecoration(
                 prefixIcon: Icon(
@@ -104,7 +105,7 @@ class Card extends StatelessWidget {
             ),
           ),
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+           padding: const EdgeInsets.only(left: 30, right: 30, top 16),
             child: const TextField(
               decoration: InputDecoration(
                 prefixIcon: Icon(
@@ -118,7 +119,7 @@ class Card extends StatelessWidget {
             ),
           ),
           Container(
-            padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+            padding: const EdgeInsets.only(left: 30, right: 30, top 16),
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
                 primary: const Color(0xFF267FFF),
